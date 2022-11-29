@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Products from "./Products";
 
 export default function home() {
@@ -10,7 +11,7 @@ export default function home() {
           className="card-img"
           alt="Logo-pixel-art"
         />
-        <div className="card-img-overlay d-flex flex-column justify-content-center">
+        <div className="card-img-overlay d-flex flex-column justify-content-center p-5">
           <div classNameName="container">
             <h5 className="card-title display-5 fw-semibold mb-0">
               Emprendimiento de la Semana
@@ -30,6 +31,9 @@ export default function home() {
                 lead-in to additional content.
               </p>
             </p>
+            <a href="https://www.instagram.com/pixelart.sv/" class="btn btn-outline-light me-4">
+            Visitar
+          </a>
           </div>
         </div>
       </div>

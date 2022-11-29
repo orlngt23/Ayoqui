@@ -36,15 +36,17 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link" to="/emprende">
+                  Emprendedores
+                </NavLink>
+              </li>
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
                   Nosotros
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/contact">
-                  Contacto
-                </NavLink>
-              </li>
+             
+            
             </ul>
             <div className="buttons">
               <NavLink to="/login" className="btn btn-outline-dark">

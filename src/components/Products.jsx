@@ -60,24 +60,7 @@ export default function Products() {
           <button className="btn btn-outline-dark me-2" onClick={()=> filterProduct("jewelery")} >Joyeria </button>
           <button className="btn btn-outline-dark me-2" onClick={()=> filterProduct("men's clothing")} >Ropa Caballero</button>
           <button className="btn btn-outline-dark me-2" onClick={()=> filterProduct("women's clothing")} >Ropa Dama</button>
-          {/*
-          dia lunes 9 de la ma;na 
-          coportaitivo de simnan galerias
-          dui 
-          nit 
-          seguro social <Hoja tama;o carta>
-          afp 
-          cuenta 
-          nit homologado 
-          titulo de bachillet 
-          solvencia 
-          y antecedentes 
-          fotocopia de cartilla de bacunacion 
-          Plaza ventas uadio y video 
-          Wendy ytejada 
           
-          
-           */}
         </div>
         {filter.map((product) => {
           return (

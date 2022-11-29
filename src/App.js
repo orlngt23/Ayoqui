@@ -7,6 +7,8 @@ import Product from './components/Product'
 import Cart from "./components/Cart";
 import Login from "./components/Login";
 import Register from "./components/Register";
+import Emprende from "./components/Emprende";
+import Nosotros from './components/Nosotros';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
     <Route exact path="/" component={Home}/>
     <Route exact path="/Products" component={Products}/>
     <Route exact path="/Products/:id" component={Product}/>
+    <Route exact path="/emprende" component={Emprende} />
+    <Route exact path="/about" component={Nosotros} />
     <Route exact path="/cart" component={Cart} />
     <Route exact path="/register" component={Register} />
-        <Route exact path="/login" component={Login} />
+    <Route exact path="/login" component={Login} />
 
   </Switch>
   
